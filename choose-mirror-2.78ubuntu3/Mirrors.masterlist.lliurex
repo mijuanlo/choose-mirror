@@ -1,0 +1,9 @@
+Site: lliurex.net
+Type: Push-Primary
+Archive-http: /bionic/
+Archive-ftp: /bionic/
+Archive-rsync: bionic/
+Archive-architecture: amd64 i386
+Country: ES Spain
+Location: Spain
+

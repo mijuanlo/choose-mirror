@@ -1,7 +1,7 @@
 export USE_HTTP=1
-export USE_HTTPS=1
+export USE_HTTPS=0
 #export USE_FTP=1
-USE_FTP_MANUAL=1
+USE_FTP_MANUAL=0
 
 DEB_HOST_ARCH ?= $(shell dpkg-architecture -qDEB_HOST_ARCH)
 
@@ -34,7 +34,7 @@ STRIP=strip
 
 # Derivative distributions may want to change these.
 #MIRRORLISTURL=https://anonscm.debian.org/git/mirror/mirror-masterlist.git/plain/Mirrors.masterlist
-MASTERLIST=Mirrors.masterlist.ubuntu
+MASTERLIST=Mirrors.masterlist.lliurex
 
 ifdef DEBUG
 CFLAGS:=$(CFLAGS) -DDODEBUG
