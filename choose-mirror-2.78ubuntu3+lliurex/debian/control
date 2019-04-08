@@ -19,5 +19,5 @@ Description: Choose mirror to install from (menu item)
 Package: choose-mirror-bin
 Package-Type: udeb
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: libc6-udeb (>= 2.26), libdebconfclient0-udeb, libdebian-installer4-udeb (>= 0.110ubuntu2), cdebconf-udeb
 Description: Choose mirror to install from (program)
