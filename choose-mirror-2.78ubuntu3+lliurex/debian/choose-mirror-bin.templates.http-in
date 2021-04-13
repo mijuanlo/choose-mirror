@@ -52,9 +52,9 @@ _Description: Ubuntu archive mirror hostname:
 
 Template: mirror/http/directory
 Type: string
-Default: /bionic/
-Default[amd64]: /bionic/
-Default[i386]: /bionic/
+Default: /focal/
+Default[amd64]: /focal/
+Default[i386]: /focal/
 # :sl2:
 _Description: Ubuntu archive mirror directory:
  Please enter the directory in which the mirror of the Ubuntu archive is
